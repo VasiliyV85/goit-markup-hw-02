@@ -17,10 +17,22 @@ body {
 }
 /* Общие цвета текста */
 .section-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.6;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -57,13 +69,21 @@ body {
 
   color: #212121;
 } */
-.header-nav.link {
+.header-nav .link {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   /* text-decoration: none; */
+}
+.link {
+  text-decoration: none;
+}
+.link-adress {
+  text-decoration: none;
 }
 .link.current {
   color: var(--accent-color);
@@ -80,9 +100,9 @@ body {
 
   color: var(--primary-text-color);
 }
-.link-adress.current {
+/* .link-adress {
   color: var(--accent-color);
-}
+} */
 .link-adress:hover,
 .link-adress:focus {
   color: var(--accent-color);
@@ -122,7 +142,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
 
   /* identical to box height, or 188% */
   display: flex;
@@ -137,6 +157,12 @@ body {
   border-radius: 4px;
 }
 
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-color);
+}
+
+/* Footer */
 .footer-menu {
   background-color: var(--bg-color-main-footer);
 }
@@ -176,3 +202,39 @@ body {
 /* .header-link-adress:active {
   color: teal;
 } */
+
+/* Портфолио */
+
+.link.current {
+  color: var(--accent-color);
+}
+/* Портфолио */
+/* Кнопки */
+.button.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.title {
+  font-size: 18px;
+  line-height: 2;
+
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}

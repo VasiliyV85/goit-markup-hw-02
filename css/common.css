@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -16,7 +16,7 @@ body {
   list-style: none;
 }
 
-/* Шапка сайта Лого Навигация */
+Шапка сайта Лого Навигация
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -37,17 +37,23 @@ body {
   color: var(--primary-white-color);
 }
 
-/* Шапка сайта header */
+Шапка сайта header
 .header-nav.link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  /* text-decoration: none; */
+  color: var(--title-text-color); */
+/* text-decoration: none;
 }
-.link.current {
+.link {
+  text-decoration: none;
+}
+.link-adress {
+  text-decoration: none;
+}
+
+.current {
   color: var(--accent-color);
 }
 .link:hover,
@@ -71,7 +77,11 @@ body {
   color: var(--accent-color);
 }
 
-/* footer */
+Герой main-block
+
+.button.primary {
+}
+footer
 .footer-menu {
   background-color: var(--bg-color-main-footer);
 }
@@ -82,7 +92,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
 
-  /* or 171% */
+  or 171%
   letter-spacing: 0.03em;
 
   color: var(--primary-white-color);
@@ -93,13 +103,17 @@ body {
   color: var(--accent-color);
 }
 
+.footer-link-adressmaps {
+  text-decoration: none;
+}
+
 .footer-link-adress {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 
-  /* or 171% */
+  or 171%
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -109,3 +123,7 @@ body {
 .footer-link-adress:focus {
   color: var(--accent-color);
 }
+
+.footer-link-adress {
+  text-decoration: none;
+} */
