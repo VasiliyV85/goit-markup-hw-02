@@ -4,6 +4,9 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --bg-color-main-footer: #2f303a;
+
+  --bg-color-button-portfolio: #f5f4fa;
+  --bg-color-button-order: #188ce8;
 }
 
 body {
@@ -28,8 +31,8 @@ body {
 
 .title {
   font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   /* text-transform: uppercase; */
@@ -39,8 +42,8 @@ body {
 .section-text {
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
+  font-size: 14px;
+  line-height: 1.7;
 
   /* identical to box height */
   /* text-align: center; */
@@ -168,7 +171,7 @@ body {
 
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--accent-color);
+  background-color: var(--bg-color-button-order);
 }
 
 /* Footer */
@@ -232,6 +235,22 @@ body {
 }
 /* Портфолио */
 /* Кнопки */
+
+.button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  /* identical to box height, or 162% */
+
+  letter-spacing: 0.03em;
+  background-color: var(--title-text-color);
+  background-color: var(--bg-color-button-portfolio);
+  border-radius: 4px;
+  cursor: pointer;
+}
 .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
