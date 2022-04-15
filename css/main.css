@@ -20,23 +20,31 @@ body {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.6;
-  text-align: center;
+  line-height: 1.1;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .title {
   font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--title-text-color);
 }
 
 .section-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* Шапка сайта и навигация */
@@ -71,20 +79,19 @@ body {
 } */
 .header-nav .link {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  /* text-decoration: none; */
-}
-.link {
   text-decoration: none;
 }
-.link-adress {
+/* .link {
   text-decoration: none;
-}
+} */
+/* .link-adress {
+  text-decoration: none;
+} */
 .link.current {
   color: var(--accent-color);
 }
@@ -99,6 +106,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 /* .link-adress {
   color: var(--accent-color);
@@ -112,6 +120,7 @@ body {
   background-color: var(--bg-color-main-footer);
 }
 .main-bg {
+  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -145,9 +154,9 @@ body {
   line-height: 1.9;
 
   /* identical to box height, or 188% */
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   letter-spacing: 0.06em;
 
   cursor: pointer;
@@ -167,6 +176,17 @@ body {
   background-color: var(--bg-color-main-footer);
 }
 
+.footer-menu-address {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
 .footer-link-adressmaps {
   font-weight: 400;
   font-size: 14px;
@@ -176,6 +196,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 
 .footer-link-adressmaps:hover,
@@ -192,6 +213,7 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .footer-link-adress:hover,
@@ -220,7 +242,9 @@ body {
   background-color: var(--accent-color);
 }
 
-.title {
+.title-name {
+  font-family: 'Roboto';
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 
@@ -230,6 +254,7 @@ body {
 }
 
 .text {
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
