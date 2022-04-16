@@ -37,6 +37,7 @@ body {
   letter-spacing: 0.03em;
   /* text-transform: uppercase; */
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 .section-text {
@@ -172,6 +173,19 @@ body {
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--bg-color-button-order);
+}
+
+/* command */
+
+.command-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
